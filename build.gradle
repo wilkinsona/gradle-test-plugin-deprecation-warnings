@@ -1,0 +1,12 @@
+plugins {
+    id 'org.ysb33r.gradletest' version '2.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+gradleTest {
+    versions '7.2'
+    deprecationMessagesAreFailures = true
+}
